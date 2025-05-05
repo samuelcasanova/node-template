@@ -1,5 +1,5 @@
-import { sayHello } from '../src'
+import { SayHello } from '../src/application/SayHello'
 
 it('should say hello', () => {
-  expect(sayHello()).toMatch(/Hello \w+ from node v\d+.\d+.\d+/)
+  expect(new SayHello().run()).toMatch(/Hello \w+ from node v\d+.\d+.\d+/)
 })
