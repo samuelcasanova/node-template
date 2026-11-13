@@ -16,7 +16,6 @@ Node project template to bootstrap other solutions
 ### Built With
 
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Nodemon](https://img.shields.io/badge/NODEMON-%23323330.svg?style=for-the-badge&logo=nodemon&logoColor=%BBDEAD)
 ![ESLint](https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white)
 ![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
@@ -28,7 +27,7 @@ Node project template to bootstrap other solutions
 
 ### Prerequisites
 
-You just need git and node installed in your computer to use this template
+You just need git and Node 24 installed in your computer to use this template
 
 ### Installation
 
@@ -53,7 +52,7 @@ You just need git and node installed in your computer to use this template
    ```sh
    npm start
    ```
-3. You can also start the hello world in dev mode with nodemon
+3. You can also start the hello world in dev mode with node --watch
    ```sh
    npm run dev
    ```
